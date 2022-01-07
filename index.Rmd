@@ -91,7 +91,7 @@ La página web de la asignatura y los trabajos de mis compañeros pueden verse [
 
 # [1. Introducción]{.verdecito}
 
-![Logo Disney](./fotos/logo.jpg)
+![Logo Disney](./imagenes/logo.jpg)
 
 Este trabajo es un análisis de una de las empresas más grandes de animación actualmente,**The Walt Disney Company o Disney**. Se fundo en 1923 de la mano de Walt Dinsey y Roy O. Disney. 
 
@@ -101,7 +101,7 @@ Además dicha empresa esta formada por diferentes franquicias de cine que durant
 
 En este trabajo, también analizaremos una de estas empresas, en partícular, la que esta más enfocada a los superheroes, Marvel. 
 
-![Empresas Disney](./fotos/empresas_disney.jpeg)
+![Empresas Disney](./imagenes/empresas_disney.jpeg)
 <br>
 
 
@@ -130,20 +130,20 @@ Estás tres últimas engloban los datos de Marvel.
 
 ```{r, include = TRUE, echo=TRUE, warning=FALSE}
 
-datos1 <- here::here("datos", "disney_movies.csv")
+datos1 <- here::here("datosss", "disney_movies.csv")
 
 aa <- rio::import(datos1) 
 
-datos2 <- here::here("datos", "charcters_stats_a.csv")
+datos2 <- here::here("datosss", "charcters_stats_a.csv")
 
 bb <- rio::import(datos2)
 
 
-datos3 <- here::here("datos", "marvelpersonajes.csv")
+datos3 <- here::here("datosss", "marvelpersonajes.csv")
 
 cc <- rio::import(datos3)
 
-datos4 <- here::here("datos", "marvelwiki.csv")
+datos4 <- here::here("datosss", "marvelwiki.csv")
 
 dd <- rio::import(datos4)
 
@@ -190,7 +190,7 @@ Según nos muestra tanto el gráfico como la tabla que hemos obtenido, la pelíc
 
 Es curioso cómo ninguna de las películas con más ingresos de Disney, no sea ninguna original de la propia empresa. Con esto podemos refutar la importancia de las firmas que conformar el total de la empresa Disney.
 
-![Final Disney](./fotos/personajes_disney.jpg)
+![Final Disney](./imagenes/personajes_disney.jpg)
 <br>
 
 
@@ -199,7 +199,7 @@ Es curioso cómo ninguna de las películas con más ingresos de Disney, no sea n
 Marvel Worldwide, Inc., conocida como Marvel Comics, es una editorial de historietas estadounidense creada en 1939.  Pero no fue hasta los años 1990 que la compañía no se posicionó como una de las principales editoriales de cómics. 
 El 31 de agosto de 2009, The Walt Disney Company compró Marvel Entertainment por cerca de 4 000 millones de dólares, fusionándose con esta el 1 de enero de 2010.
 
-![Logo Marvel](./fotos/logo_marvel.png)
+![Logo Marvel](./imagenes/logo_marvel.png)
 
 <br>
 
@@ -323,7 +323,7 @@ poderes_malos_plot
 ```
 Frente al gráfico, podemos afirmar que **Dormammu** es el villano con más poderes, seguido por **Magus** y el último sería **Onslaught**.
 
-![Personajes Marvel](./fotos/personajes_marvel.jpg)
+![Personajes Marvel](./imagenes/personajes_marvel.jpg)
 <br>
 
 # 4. Trabajos en los que te has basado
